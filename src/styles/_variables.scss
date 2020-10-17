@@ -1,0 +1,42 @@
+// Paleta de cores do site
+$color-white: #fff;
+$color-black: #000;
+$color-lgray: rgb(184, 184, 184);
+$color-dblue: #1F3F68;
+$color-lblue: #5A98D0;
+$color-blue01: #316099;
+$color-dblue01: #0e2e57;
+
+
+
+// Importação de font do site
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+// Grid configurações
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+
+$screen-sm: 768px;
+$screen-md: 1024px; 
+$screen-lg: 1170px;
+
+$grid-container-max-size: 1170px;
+
+//configurações de fonte
+$font-display: 'Josefin Sans', sans-serif;
+$font-text: 'Ubuntu', sans-serif;
+$font-weight-heading: 400;
+
+
+//icons do Icomoon App
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-search: "\e903";
+$icon-arrow-down: "\e904";
+$icon-arrow-right: "\e906";
+$icon-glenmark: "\e905";
+$icon-facebook: "\e900";
+$icon-instagram: "\e901";
+$icon-youtube: "\e902";
+

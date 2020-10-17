@@ -1,0 +1,36 @@
+.header{
+    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    
+    .container{
+        .write-banner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 50px;
+            h3{
+                //contorno na palavra
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #000;
+                color: $color-dblue01;
+
+                text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+
+    @media screen and (min-width: $screen-md){
+        .container{
+            .write-banner{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                p{
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
