@@ -1,0 +1,16 @@
+.project-finished{
+    .img-project{
+        img{
+            width: 100%;
+            border-radius: 10px;
+            height: 300px;
+            
+        }
+        @media screen and (min-width: $screen-md){
+            img{
+                height: 500px;
+            }
+        }
+    }
+
+}
