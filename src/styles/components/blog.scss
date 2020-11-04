@@ -10,6 +10,7 @@
           padding: 10px;
           background-color: $color-lgray01;
           border: none;
+          width: 100%;
         }
         placeholder {
         }
@@ -26,15 +27,22 @@
         margin-bottom: 30px;
         border-radius: 5px;
        .content-global{
-        background-color: $color-lgray01;
-        .img-blog{
+         
+         .teste{
+          background-color: $color-lgray01;
+          border-radius: 10px;
+          margin-bottom: 30px;
+          .img-blog{
             img{
-                width: 100%;
+               width: 100%;
+               border-radius: 10px 10px 0 0;
+            }
+            .img-blog-first{
+              border-radius: 0 0 10px 10px;
             }
         }
            .content{
-            padding: 16px;
-               
+            padding: 16px;  
                h5{
                    font-size: 28px;
                }
@@ -53,19 +61,21 @@
                    font-size: 14px;
                  padding-bottom: 0;
                  margin-bottom: 4px;
+                 color: $color-blue01;                 
                }
                small {
                   font-size: 14px; 
+                  color: $color-gray;
                }
              }
              .icon-share {
-               .save {
-                 img {
-                   padding-right: 18px;
-                 }
-               }
+              .save{            
+                  padding-right: 26px;
+              }
+               
              }
            }
+        }
 
        }
       }
