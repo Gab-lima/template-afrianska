@@ -1,5 +1,10 @@
 .blog {
   .container {
+    border-bottom: 1px solid $color-lgray;
+    margin-bottom: 60px;
+    h3{
+      font-size: 25px;
+    }
     .form {
       display: flex;
       width: 100%;
@@ -24,14 +29,23 @@
     ///
     .blog-principal {
       .card-blog {
-        margin-bottom: 30px;
-        border-radius: 5px;
-       .content-global{
+        .content-global{
+          border-radius: 5px;
          
          .teste{
           background-color: $color-lgray01;
           border-radius: 10px;
           margin-bottom: 30px;
+          .content{
+           padding: 16px;  
+              h5{
+                  font-size: 28px;
+              }
+              p {
+                  font-size: 16px;
+                  margin-bottom: 16px;
+              }
+          }
           .img-blog{
             img{
                width: 100%;
@@ -40,17 +54,12 @@
             .img-blog-first{
               border-radius: 0 0 10px 10px;
             }
+            .img-article{
+              border-radius: 10px 10px 0 0;
+              //border-radius: 10px 0 0 10px;
+
+            }
         }
-           .content{
-            padding: 16px;  
-               h5{
-                   font-size: 28px;
-               }
-               p {
-                   font-size: 16px;
-                   margin-bottom: 16px;
-               }
-           }
    
            .author {
              display: flex;
@@ -78,11 +87,10 @@
         }
 
        }
+
+ 
       }
 
-      &._principal{
-
-      }
     }
   }
 }
