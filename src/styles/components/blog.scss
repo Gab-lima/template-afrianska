@@ -2,6 +2,27 @@
   .container {
     border-bottom: 1px solid $color-lgray;
     margin-bottom: 60px;
+
+    //post-link
+    .link-post{
+      display: flex;
+      justify-content: space-between;
+      .link-popular-article{
+        display: flex;   
+        margin-bottom: 30px;
+
+      }
+      a{
+        font-size: 16px;
+        font-weight: 600;
+        color: $color-dblue;
+        text-decoration: revert;
+      }
+    }
+
+    &.border-none{
+      border-bottom: none;
+    }
     h3{
       font-size: 25px;
     }
@@ -56,8 +77,6 @@
             }
             .img-article{
               border-radius: 10px 10px 0 0;
-              //border-radius: 10px 0 0 10px;
-
             }
         }
    
@@ -91,6 +110,35 @@
  
       }
 
+    }
+  }
+  @media screen and (min-width: $screen-md){
+    .container {
+  
+      .blog-principal {
+        .card-blog {
+          .content-global{
+       
+           .teste{
+            .img-blog{
+              .img-blog-first{
+                border-radius: 0 10px 10px 0 ;
+              }
+              .img-article{
+                border-radius: 10px 0 0 10px;
+  
+              }
+          }
+     
+
+          }
+  
+         }
+  
+   
+        }
+  
+      }
     }
   }
 }
