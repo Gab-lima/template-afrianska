@@ -1,0 +1,22 @@
+.form-contatc{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    padding: 50px;
+    border-radius: 10px;
+    label{
+        margin-bottom: 8px;
+    }
+    input{
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid $color-blue01;
+        margin-bottom: 30px;
+    }
+    textarea{
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid $color-blue01;
+        margin-bottom: 50px;
+    }
+}
