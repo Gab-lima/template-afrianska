@@ -1,9 +1,12 @@
 .form-contatc{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     padding: 50px;
     border-radius: 10px;
+    margin-bottom: 90px;
+    -webkit-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
     label{
         margin-bottom: 8px;
     }
@@ -12,11 +15,13 @@
         border-radius: 10px;
         border: 1px solid $color-blue01;
         margin-bottom: 30px;
+        outline: none;
     }
     textarea{
         padding: 20px;
         border-radius: 10px;
         border: 1px solid $color-blue01;
         margin-bottom: 50px;
+        outline: none;
     }
 }
